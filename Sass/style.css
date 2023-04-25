@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/Assets/background.jpg);
+  display: grid;
+  place-items: center;
+  overflow-x: hidden;
+}
+body h1 {
+  margin: 10px;
+}
+body ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 3px solid black;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 19px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 19px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 19px 0px rgba(0, 0, 0, 0.75);
+}
+body ul li {
+  list-style: none;
+  display: grid;
+  place-items: center;
+  font-size: 0px;
+}
+body .divv {
+  display: flex;
+}
+body .box {
+  margin: 0.5px;
+  width: 75px;
+  height: 75px;
+}
+body #tog {
+  margin: 10px 0px;
+}
+body .allimg {
+  width: 65px;
+  position: relative;
+  bottom: 5px;
+}
+body .allpawn {
+  transform: scale(0.7);
+}
+body .authcont {
+  width: 100vw;
+}
+body .author {
+  float: right;
+  margin-right: 50px;
+}
+body .restart {
+  padding: 10px;
+  width: 90px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 650px) {
+  #tog {
+    margin-bottom: 70px;
+  }
+  .box {
+    width: 11vw;
+    height: 11vw;
+  }
+  .allimg {
+    width: 10vw;
+  }
+}/*# sourceMappingURL=style.css.map */
